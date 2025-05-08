@@ -1,0 +1,20 @@
+{
+  "template": "https://github.com/ecmwf-projects/cookiecutter-conda-package",
+  "commit": "18065cb3d40660d1b7d74ac1cbe285f08552e658",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "dss-custom-tools",
+      "project_slug": "dss_custom_tools",
+      "project_short_description": "Some custom tools for working with the DSS",
+      "copyright_holder": "Edward Comyn-Platt",
+      "copyright_year": "2025",
+      "mypy_strict": true,
+      "integration_tests": false,
+      "pypi": true,
+      "_template": "https://github.com/ecmwf-projects/cookiecutter-conda-package",
+      "_commit": "18065cb3d40660d1b7d74ac1cbe285f08552e658"
+    }
+  },
+  "directory": null
+}
