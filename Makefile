@@ -25,9 +25,6 @@ docker-build:
 docker-run:
 	docker run --rm -ti -v $(PWD):/srv $(PROJECT)
 
-template-update:
-	pre-commit run --all-files cruft -c .pre-commit-config-cruft.yaml
-
 docs-build:
 	cp README.md docs/. && cd docs && rm -fr _api && make clean && make html
 
